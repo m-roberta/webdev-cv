@@ -1,0 +1,54 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.personal-info {
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.personal-info_title {
+    color: purple;
+}
+
+hr {
+   border: 1px solid white;
+   width: 50%;
+}
+
+.experience { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.experience-title {
+    color: pink;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.education-title{
+    color: pink;
+}
+
+li {
+    list-style-type: none;
+}
