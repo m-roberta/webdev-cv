@@ -1,55 +1,72 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
 }
 
-
 .personal-info {
-    background: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px 0;
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
 }
 
 .personal-info_title {
-    color: purple;
+  color: purple;
 }
 
 hr {
-   border: 1px solid white;
-   width: 50%;
+  border: 1px solid white;
+  width: 50%;
 }
 
-.experience { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px;
-
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px;
+  text-align: center;
 }
 
 .experience-title {
-    color: pink;
+  color: pink;
+}
+
+.experience-special, .education-name {
+  font-weight: 600;
+}
+
+.experience-position, .education-diploma {
+  font-style: italic;
+  font-weight: 300;
 }
 
 .education {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
 }
 
-.education-title{
-    color: pink;
+.education-title {
+  color: pink;
 }
 
-li {
-    list-style-type: none;
+img {
+  width: 15%;
+  height: 15%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
